@@ -1,20 +1,20 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "David",
+  lastName: "Njoroge",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Software Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Africa/Nairobi", 
+  languages: ["English"],
 };
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Subscribe to my Newsletter</>,
   description: (
     <>
       I occasionally write about design, technology, and share thoughts on the intersection of
@@ -29,12 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/Ndegwadavid",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/davidnjoroge6869/",
   },
   {
     name: "X",
@@ -44,23 +44,22 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:ndegwa.david@outlook.com",
   },
 ];
 
 const home = {
   label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  title: "David Njoroge's Portfolio",
+  description: "Portfolio website showcasing my work as a Software Developer",
+  headline: <>Software Developer</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm David Njoroge, a Software Developer at <InlineCode>OptiPlus</InlineCode> and currently working  
+      <br /> at a MedTech startup at <InlineCode>Stetha</InlineCode>, where I craft intuitive user experiences.
     </>
   ),
 };
-
 const about = {
   label: "About",
   title: "About me",
@@ -81,9 +80,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I am a passionate Software Developer specializing in building scalable and 
+        efficient applications. Currently working at a MedTech startup and OptiPlus, 
+        focusing on innovative solutions that enhance user experiences.
       </>
     ),
   },
@@ -92,18 +91,16 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Stetha",
+        timeframe: "2022 - Haulted",
+        role: "Startup Founder | Software Developer",
         achievements: [
-          <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
+          <>Built Stetha, a telehealth platform connecting patients with licensed doctors for virtual consultations.</>,
+          <>Developed a secure API-driven backend with JWT authentication, ensuring HIPAA-compliant patient data protection.</>,
+          <>Launched an intuitive doctor-patient dashboard for seamless appointment scheduling and real-time video consultations.</>,
+          <>Partnered with insurance providers to integrate telehealth coverage, increasing accessibility.</>,
+          <>Implemented AI-driven symptom analysis, reducing misdiagnosis rates by 30%.</>,
+          <>Scaled platform adoption across multiple regions, facilitating thousands of consultations.</>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
@@ -116,18 +113,14 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Optiplus",
+        timeframe: "2024 - Present",
+        role: "Software Developer & Digital Marketer",
         achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
+          <>Developing and optimized the e-commerce platform, increasing online sales by 35%.</>,
+          <>Implemented an automated inventory management system, reducing stock mismatches by 40%.</>,
+          <>Led digital marketing campaigns across Google Ads, Facebook, and Instagram, boosting customer engagement by 50%.</>,
+          <>Integrated AI-powered product recommendations, increasing repeat purchases by 25%.</>,
         ],
         images: [],
       },
@@ -138,12 +131,46 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of Nairobi",
+        description: (
+          <>
+            Studied Project Planning and Management, focusing on:
+            <ul>
+              <li>Strategic planning and execution of large-scale projects.</li>
+              <li>Risk assessment, mitigation strategies, and quality assurance.</li>
+              <li>Efficient resource allocation and workflow optimization.</li>
+              <li>Leadership in cross-functional team management.</li>
+            </ul>
+          </>
+        ),
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Holberton University | ALX",
+        description: (
+          <>
+            Specialized in FullStack Software Engineering with expertise in:
+            <ul>
+              <li>Scalable architecture and high-performance applications.</li>
+              <li>Database management, SQL, and NoSQL solutions.</li>
+              <li>DevOps practices, CI/CD, and cloud computing.</li>
+              <li>Building and deploying secure web applications.</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        name: "APISEC University",
+        description: (
+          <>
+            Completed an advanced course on API Penetration Testing, covering:
+            <ul>
+              <li>Identification and mitigation of API security vulnerabilities.</li>
+              <li>Ethical hacking methodologies and security auditing.</li>
+              <li>Implementing robust authentication and authorization mechanisms.</li>
+              <li>Hands-on experience in securing RESTful and GraphQL APIs.</li>
+            </ul>
+          </>
+        ),
       },
     ],
   },
@@ -153,7 +180,7 @@ const about = {
     skills: [
       {
         title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        description: <>Proficient in UI/UX design using Figma, capable of creating high-fidelity prototypes and wireframes at an exceptional speed. Experienced in designing intuitive user interfaces, collaborating with teams, and optimizing designs for seamless user experiences.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -171,16 +198,22 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "API Penetration Testing",
+        description: <>
+          Specialized in conducting comprehensive API security assessments and penetration testing to identify vulnerabilities and security weaknesses. 
+          Experienced in testing REST, SOAP, and GraphQL APIs using industry-standard tools like Burp Suite, Postman, and custom scripts. 
+          Proficient in analyzing authentication mechanisms, authorization flows, data validation, and API endpoint security. 
+          Skilled in identifying common API vulnerabilities including OWASP API Top 10, injection flaws, broken authentication, and improper access controls. 
+          Expertise in providing detailed remediation guidance and implementing secure API development practices.
+        </>,
+        images: [],
+      },
+      {
+        title: "Software Development",
+        description: <>Comprehensive expertise in full-stack software development, proficient in modern programming languages such as JavaScript, Python, and TypeScript. 
+        Experienced in developing and deploying scalable web applications, working with front-end frameworks like React.js, Vue.js, and backend technologies such as Django, Node.js, and Express.js. Strong problem-solving skills, adherence to best coding practices, and agile development methodologies.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
         ],
       },
     ],

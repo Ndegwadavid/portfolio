@@ -73,7 +73,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://calendar.app.google/LDVqjm2hFvhJw4J27",
   },
   intro: {
     display: true,

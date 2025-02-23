@@ -17,8 +17,8 @@ const newsletter = {
   title: <>Subscribe to my Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      To get the latest blogs with the latest technological advancements 
+      and new techstacks. Stay up to date with the latest trends in tech.
     </>
   ),
 };

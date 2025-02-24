@@ -1,6 +1,5 @@
 import "@/once-ui/styles/index.scss";
 import "@/once-ui/tokens/index.scss";
-import { Analytics } from "@vercel/analytics/react"
 
 import classNames from "classnames";
 
